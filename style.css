@@ -1,0 +1,107 @@
+
+
+/* texto Hero da imagem	*/
+.hero_titulo {
+	font-size: 7.5rem;
+}
+.hero_desc {
+	font-size: 2rem;
+	
+}
+.hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+.bgimage {
+	height: 100vh;
+	background: url("img/fundo.jpg");
+	background: cover;
+	position: relative;
+}
+
+/* Imagem sobre*/
+.imagemSobre {
+	width: 100%;
+}
+
+
+/*Serviços*/
+
+.servicesText.card {
+	height: 280px;
+	cursor: pointer;
+}
+
+.servicesIcon {
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.card:houver .servicesIcon {
+	color: #008000;
+}
+.servicesText: houver {
+	border: 1px solid #008000;
+}
+
+
+/* menu  Superficie*/
+.navbar {
+	background-color: black;
+}
+/* cor das letras do menu*/
+.navbar a {
+	color: #EDAE18;
+}
+/* passar o mouse no menu*/
+.navbar a:hover {
+	color: black;
+	background-color: #ddd;
+}
+
+
+
+
+
+
+
+.contactIcon {
+	font-size: 56px;	
+	color: green;
+}
+
+.contactFooter {
+	font-size: 20px;	
+	color: blue;
+	position: revert;
+	text-align: right;
+	
+}
+
+.glass {
+	/* From https://css.glass */
+height: 33%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background: rgba(255, 255, 255, 0.11);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.4px);
+-webkit-backdrop-filter: blur(2.4px);
+}
+
+/*ajuste para melhorar espaçamento entre as linhas*/
+#sobre, #servicos, #portifolio, #contato {
+	padding-top: 8	rem;
+	padding-bottom: 8rem;
+}
